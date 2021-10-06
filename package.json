@@ -1,0 +1,11 @@
+{
+  "name": "js-cli-app-02",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/horsejiro/js-cli-app-02.git",
+  "author": "馬場英次郎 <33510560+horsejiro@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "5.0"
+  }
+}
