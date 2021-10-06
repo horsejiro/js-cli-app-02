@@ -1,0 +1,43 @@
+Arguments: 
+  /Users/taimeshi07/.anyenv/envs/nodenv/versions/14.4.0/bin/node /Users/taimeshi07/.nvm/versions/node/v16.3.0/bin/yarn add commander @5.0
+
+PATH: 
+  /Users/taimeshi07/.anyenv/envs/nodenv/versions/14.4.0/bin:/Users/taimeshi07/.anyenv/envs/nodenv/libexec:/Users/taimeshi07/.anyenv/envs/nodenv/plugins/nodenv-vars/bin:/Users/taimeshi07/.anyenv/envs/nodenv/plugins/nodenv-default-packages/bin:/Users/taimeshi07/.anyenv/envs/nodenv/plugins/node-build/bin:/Users/taimeshi07/.anyenv/envs/nodenv/shims:/Users/taimeshi07/.anyenv/envs/nodenv/bin:/Users/taimeshi07/.anyenv/envs/nodenv/shims:/Users/taimeshi07/.anyenv/envs/nodenv/bin:/Users/taimeshi07/.nvm/versions/node/v16.3.0/bin:/Users/taimeshi07/bin:/Users/taimeshi07/.nodebrew/current/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/Users/taimeshi07/.anyenv/envs/nodenv/shims:/Users/taimeshi07/.anyenv/envs/nodenv/bin:/Users/taimeshi07/.nvm/versions/node/v16.3.0/bin:/Users/taimeshi07/bin:/Users/taimeshi07/.nodebrew/current/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.4.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@5.0: Request "https://registry.yarnpkg.com/@5.0" returned a 405
+      at Request.params.callback [as _callback] (/Users/taimeshi07/.nvm/versions/node/v16.3.0/lib/node_modules/yarn/lib/cli.js:66997:18)
+      at Request.self.callback (/Users/taimeshi07/.nvm/versions/node/v16.3.0/lib/node_modules/yarn/lib/cli.js:140662:22)
+      at Request.emit (events.js:315:20)
+      at Request.<anonymous> (/Users/taimeshi07/.nvm/versions/node/v16.3.0/lib/node_modules/yarn/lib/cli.js:141634:10)
+      at Request.emit (events.js:315:20)
+      at IncomingMessage.<anonymous> (/Users/taimeshi07/.nvm/versions/node/v16.3.0/lib/node_modules/yarn/lib/cli.js:141556:12)
+      at Object.onceWrapper (events.js:421:28)
+      at IncomingMessage.emit (events.js:327:22)
+      at endReadableNT (_stream_readable.js:1224:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "js-cli-app-02",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/horsejiro/js-cli-app-02.git",
+    "author": "馬場英次郎 <33510560+horsejiro@users.noreply.github.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
